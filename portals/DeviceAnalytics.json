@@ -1,0 +1,1176 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "151c92e7-b4e2-4400-b893-5062cf3882fb": "lg",
+            "39445dec-ecc2-4d23-bd00-5176efaf4f62": "lg",
+            "4e597c17-eb8f-4253-8f30-56ab98b2d78f": "lg",
+            "72c54a82-c82b-43f2-b52f-df7bdd06537d": "lg",
+            "839c8b7f-b1a2-4a9a-8eca-9df5de022839": "lg",
+            "9cd8d007-b164-4daf-a21d-c80e449e3089": "lg",
+            "aba1d7ef-173c-440b-a888-fbd84ddf405c": "lg",
+            "c6532d55-3f9a-413c-8253-e0c86ce7d9db": "lg"
+        },
+        "datasources": {
+            "7df3ff24-9610-437c-b3a7-ec7f27e42e76": {
+                "id": "7df3ff24-9610-437c-b3a7-ec7f27e42e76",
+                "name": "FetchAnalytics1",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "AnalyticsFetch",
+                    "payload": "{\"name\":\"Analytics1\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "82c86800-59e2-4d5c-b34f-a1bc4a5f59e8": {
+                "id": "82c86800-59e2-4d5c-b34f-a1bc4a5f59e8",
+                "name": "processDeviceMessages",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "processDeviceMessages",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "995c53c8-e131-4fcc-a6b9-b57f41044544": {
+                "id": "995c53c8-e131-4fcc-a6b9-b57f41044544",
+                "name": "FetchAnalytics3",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "AnalyticsFetch",
+                    "payload": "{\"name\":\"Analytics3\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "a9a54a95-92ed-4d05-87a5-f8e2330401c3": {
+                "id": "a9a54a95-92ed-4d05-87a5-f8e2330401c3",
+                "name": "FetchAnalytics2",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "AnalyticsFetch",
+                    "payload": "{\"name\":\"Analytics2\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b92e5532-b51a-4c8e-9661-de9e62434e2a": {
+                "id": "b92e5532-b51a-4c8e-9661-de9e62434e2a",
+                "name": "FetchAnalytics4",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "AnalyticsFetch",
+                    "payload": "{\"name\":\"Analytics4\"}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "edcfaf22-ab32-4a0b-a959-61578e760c61": {
+                "id": "edcfaf22-ab32-4a0b-a959-61578e760c61",
+                "name": "AnalyticsSaveConfiguration",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "AnalyticsSaveConfiguration",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 41,
+                    "x": 15,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 61,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                    "w": 36,
+                    "x": 83,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                    "w": 36,
+                    "x": 64,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                    "w": 36,
+                    "x": 40,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                    "w": 36,
+                    "x": 27.5,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "1d8e7dae-64c0-4049-b432-10346cbcdd85": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "1d8e7dae-64c0-4049-b432-10346cbcdd85",
+                "isChild": false,
+                "isParam": false,
+                "name": "Configuration",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "151c92e7-b4e2-4400-b893-5062cf3882fb": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "118be1c3-bbc7-42b3-bd5e-c720aab132eb",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "39445dec-ecc2-4d23-bd00-5176efaf4f62": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "d20d9036-5c48-48e7-9723-206147fade30",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "4e597c17-eb8f-4253-8f30-56ab98b2d78f": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "2e805fdc-17f3-4102-9f92-f2f798394e13",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "72c54a82-c82b-43f2-b52f-df7bdd06537d": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "68b4f7d2-2487-439d-9ade-47d93f7cc8ad",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "839c8b7f-b1a2-4a9a-8eca-9df5de022839": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "4a211363-b3aa-4666-b6dd-84e69181fe30",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "9cd8d007-b164-4daf-a21d-c80e449e3089": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "b3a1faf4-c9c1-4587-9e10-f997405b925c",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "aba1d7ef-173c-440b-a888-fbd84ddf405c": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "52561514-6e06-405b-9d08-73d3ab915854",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "c6532d55-3f9a-413c-8253-e0c86ce7d9db": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "39497578-1c6c-4fb5-8d2c-72ef1288a152",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "1d8e7dae-64c0-4049-b432-10346cbcdd85": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "4e0f8750-bf34-4931-b486-f01e7f9871d6",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "e5c2b416-808d-4ac1-ba4e-043a6e8f1492",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "72ee0239-cafb-4086-88e1-6e83f6e64198",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "388606df-31b4-4b53-94a5-dcddb376bcbd",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 3
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 3,
+                        "i": "60812151-87e4-440e-9322-b1d7d25cac43",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "4d22a787-71ae-4a7a-a8e6-f5c39e113615",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "00da16d6-bfd6-41d8-b82a-2ffe5b776c93",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "8fc0d54f-490d-4bda-9a68-f92225bd8523",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 3
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "00da16d6-bfd6-41d8-b82a-2ffe5b776c93": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 3"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "00da16d6-bfd6-41d8-b82a-2ffe5b776c93",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "9cd8d007-b164-4daf-a21d-c80e449e3089",
+                    "tabIds": [
+                        "9cd8d007-b164-4daf-a21d-c80e449e3089"
+                    ],
+                    "tabTitles": {
+                        "9cd8d007-b164-4daf-a21d-c80e449e3089": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "388606df-31b4-4b53-94a5-dcddb376bcbd": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 4"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "388606df-31b4-4b53-94a5-dcddb376bcbd",
+                "pageId": "1d8e7dae-64c0-4049-b432-10346cbcdd85",
+                "tabInfo": {
+                    "activeTab": "4e597c17-eb8f-4253-8f30-56ab98b2d78f",
+                    "tabIds": [
+                        "4e597c17-eb8f-4253-8f30-56ab98b2d78f"
+                    ],
+                    "tabTitles": {
+                        "4e597c17-eb8f-4253-8f30-56ab98b2d78f": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "4d22a787-71ae-4a7a-a8e6-f5c39e113615": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 2"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "4d22a787-71ae-4a7a-a8e6-f5c39e113615",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "72c54a82-c82b-43f2-b52f-df7bdd06537d",
+                    "tabIds": [
+                        "72c54a82-c82b-43f2-b52f-df7bdd06537d"
+                    ],
+                    "tabTitles": {
+                        "72c54a82-c82b-43f2-b52f-df7bdd06537d": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "4e0f8750-bf34-4931-b486-f01e7f9871d6": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 1"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "4e0f8750-bf34-4931-b486-f01e7f9871d6",
+                "pageId": "1d8e7dae-64c0-4049-b432-10346cbcdd85",
+                "tabInfo": {
+                    "activeTab": "151c92e7-b4e2-4400-b893-5062cf3882fb",
+                    "tabIds": [
+                        "151c92e7-b4e2-4400-b893-5062cf3882fb"
+                    ],
+                    "tabTitles": {
+                        "151c92e7-b4e2-4400-b893-5062cf3882fb": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "60812151-87e4-440e-9322-b1d7d25cac43": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 1"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "60812151-87e4-440e-9322-b1d7d25cac43",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "39445dec-ecc2-4d23-bd00-5176efaf4f62",
+                    "tabIds": [
+                        "39445dec-ecc2-4d23-bd00-5176efaf4f62"
+                    ],
+                    "tabTitles": {
+                        "39445dec-ecc2-4d23-bd00-5176efaf4f62": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "72ee0239-cafb-4086-88e1-6e83f6e64198": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 3"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "72ee0239-cafb-4086-88e1-6e83f6e64198",
+                "pageId": "1d8e7dae-64c0-4049-b432-10346cbcdd85",
+                "tabInfo": {
+                    "activeTab": "aba1d7ef-173c-440b-a888-fbd84ddf405c",
+                    "tabIds": [
+                        "aba1d7ef-173c-440b-a888-fbd84ddf405c"
+                    ],
+                    "tabTitles": {
+                        "aba1d7ef-173c-440b-a888-fbd84ddf405c": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "8fc0d54f-490d-4bda-9a68-f92225bd8523": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 4"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "8fc0d54f-490d-4bda-9a68-f92225bd8523",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "c6532d55-3f9a-413c-8253-e0c86ce7d9db",
+                    "tabIds": [
+                        "c6532d55-3f9a-413c-8253-e0c86ce7d9db"
+                    ],
+                    "tabTitles": {
+                        "c6532d55-3f9a-413c-8253-e0c86ce7d9db": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "e5c2b416-808d-4ac1-ba4e-043a6e8f1492": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Analytics 2"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "e5c2b416-808d-4ac1-ba4e-043a6e8f1492",
+                "pageId": "1d8e7dae-64c0-4049-b432-10346cbcdd85",
+                "tabInfo": {
+                    "activeTab": "839c8b7f-b1a2-4a9a-8eca-9df5de022839",
+                    "tabIds": [
+                        "839c8b7f-b1a2-4a9a-8eca-9df5de022839"
+                    ],
+                    "tabTitles": {
+                        "839c8b7f-b1a2-4a9a-8eca-9df5de022839": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "118be1c3-bbc7-42b3-bd5e-c720aab132eb": {
+                "externalScripts": [],
+                "id": "118be1c3-bbc7-42b3-bd5e-c720aab132eb",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "",
+                            "HTML": "\u003cbr\u003e\nType\u003cbr\u003e\n\u003cdiv class=\"btn-group\" role=\"group\" aria-label=\"Basic example\"\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics1',OFF')\" class=\"btn bg-secondary text-white\"\u003eOff\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics1','upper_bound')\" class=\"btn btn-info\"\u003eUpper Bound\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics1','lower_bound')\" class=\"btn btn-warning\"\u003eLower Bound\u003c/button\u003e\n\u003c/div\u003e\n\u003cbr\u003e\u003cbr\u003e\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eTopic\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"topicInputAnalytics1\" type=\"text\" class=\"form-control\" value=\"sensor\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eBound\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"boundInputAnalytics1\" type=\"text\" class=\"form-control\" value=\"10\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eSensor Key\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"sensorKeyInputAnalytics1\" type=\"text\" class=\"form-control\" value=\"temperature\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\n\n\u003cbr\u003e\n\u003cbutton onclick=\"save('Analytics1')\" type=\"button\" class=\"btn btn-primary\"\u003eSave\u003c/button\u003e\n",
+                            "JavaScript": "var NAME = \"Analytics1\"\n\nif(!window.analytics){\n    window.analytics = {Analytics1:{theType:\"OFF\"},Analytics2:{theType:\"OFF\"},Analytics3:{theType:\"OFF\"},Analytics4:{theType:\"OFF\"}}\n}\nwindow.setBound = function(name, theType){\n    window.analytics[name] = {\n        theType\n    }\n}\nwindow.save = function(name){\n    console.log(\"Saving settings\")\n    try{\n        var topic = document.getElementById(\"topicInput\" + name).value;\n        var message_key = document.getElementById(\"sensorKeyInput\" + name).value\n        var bound = document.getElementById(\"boundInput\" + name).value\n        var params = JSON.stringify({bound:parseFloat(bound)})\n        var theType = window.analytics[name].theType\n        debugger;\n        datasources['AnalyticsSaveConfiguration'].sendData({\"type\":theType, name, topic, message_key, params})\n    }\n    catch(e){\n        console.log(\"Failed to save settings: \" + JSON.stringify(e))\n    }\n}"
+                        }
+                    }
+                },
+                "tab": "151c92e7-b4e2-4400-b893-5062cf3882fb",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "2e805fdc-17f3-4102-9f92-f2f798394e13": {
+                "externalScripts": [],
+                "id": "2e805fdc-17f3-4102-9f92-f2f798394e13",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbr\u003e\nType\u003cbr\u003e\n\u003cdiv class=\"btn-group\" role=\"group\" aria-label=\"Basic example\"\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics4','OFF')\" class=\"btn bg-secondary text-white\"\u003eOff\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics4','upper_bound')\" class=\"btn btn-info\"\u003eUpper Bound\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics4','lower_bound')\" class=\"btn btn-warning\"\u003eLower Bound\u003c/button\u003e\n\u003c/div\u003e\n\u003cbr\u003e\u003cbr\u003e\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eTopic\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"topicInputAnalytics4\" type=\"text\" class=\"form-control\" value=\"sensor\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eBound\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"boundInputAnalytics4\" type=\"text\" class=\"form-control\" value=\"10\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eSensor Key\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"sensorKeyInputAnalytics4\" type=\"text\" class=\"form-control\" value=\"temperature\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\n\n\u003cbr\u003e\n\u003cbutton onclick=\"save('Analytics4')\" type=\"button\" class=\"btn btn-primary\"\u003eSave\u003c/button\u003e\n",
+                            "JavaScript": "var NAME = \"Analytics4\"\n\nif(!window.analytics){\n    window.analytics = {Analytics1:{theType:\"OFF\"},Analytics2:{theType:\"OFF\"},Analytics3:{theType:\"OFF\"},Analytics4:{theType:\"OFF\"}}\n}\nwindow.setBound = function(name, theType){\n    window.analytics[name] = {\n        theType\n    }\n}\nwindow.save = function(name){\n    console.log(\"Saving settings\")\n    try{\n        var topic = document.getElementById(\"topicInput\" + name).value;\n        var message_key = document.getElementById(\"sensorKeyInput\" + name).value\n        var bound = document.getElementById(\"boundInput\" + name).value\n        var params = JSON.stringify({bound:parseFloat(bound)})\n        var theType = window.analytics[name].theType\n        debugger;\n        datasources['AnalyticsSaveConfiguration'].sendData({\"type\":theType, name, topic, message_key, params})\n    }\n    catch(e){\n        console.log(\"Failed to save settings: \" + JSON.stringify(e))\n    }\n}"
+                        }
+                    }
+                },
+                "tab": "4e597c17-eb8f-4253-8f30-56ab98b2d78f",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "39497578-1c6c-4fb5-8d2c-72ef1288a152": {
+                "externalScripts": [],
+                "id": "39497578-1c6c-4fb5-8d2c-72ef1288a152",
+                "props": {
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "b92e5532-b51a-4c8e-9661-de9e62434e2a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var output = this.datasource.results.map(function(e){\n    e.val = parseFloat(e.val)\n    return e\n})\nreturn output"
+                        }
+                    },
+                    "fill": "#6E93A8",
+                    "timeformat": "MM/DD/YY, hh:mm:ss",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "val",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "timeformat": ""
+                        }
+                    ]
+                },
+                "tab": "c6532d55-3f9a-413c-8253-e0c86ce7d9db",
+                "type": "CB_SCATTER_P"
+            },
+            "3c5f7537-2f4a-468d-bf7b-51cac6647424": {
+                "externalScripts": [],
+                "id": "3c5f7537-2f4a-468d-bf7b-51cac6647424",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbutton  class=\"btn btn-primary\" style=\"padding: 2px 2px\"onclick=\"goToConfiguration()\"\u003eConfigure\u003c/button\u003e",
+                            "JavaScript": "//JavaScript\nwindow.goToConfiguration = function(){\n    CB_PORTAL.selectPage('/Configuration')\n}"
+                        }
+                    }
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "4a211363-b3aa-4666-b6dd-84e69181fe30": {
+                "externalScripts": [],
+                "id": "4a211363-b3aa-4666-b6dd-84e69181fe30",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbr\u003e\nType\u003cbr\u003e\n\u003cdiv class=\"btn-group\" role=\"group\" aria-label=\"Basic example\"\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics2','OFF')\" class=\"btn bg-secondary text-white\"\u003eOff\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics2','upper_bound')\" class=\"btn btn-info\"\u003eUpper Bound\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics2','lower_bound')\" class=\"btn btn-warning\"\u003eLower Bound\u003c/button\u003e\n\u003c/div\u003e\n\u003cbr\u003e\u003cbr\u003e\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eTopic\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"topicInputAnalytics2\" type=\"text\" class=\"form-control\" value=\"sensor\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eBound\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"boundInputAnalytics2\" type=\"text\" class=\"form-control\" value=\"10\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eSensor Key\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"sensorKeyInputAnalytics2\" type=\"text\" class=\"form-control\" value=\"temperature\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\n\n\u003cbr\u003e\n\u003cbutton onclick=\"save('Analytics2')\" type=\"button\" class=\"btn btn-primary\"\u003eSave\u003c/button\u003e\n",
+                            "JavaScript": "var NAME = \"Analytics2\"\n\nif(!window.analytics){\n    window.analytics = {Analytics1:{theType:\"OFF\"},Analytics2:{theType:\"OFF\"},Analytics3:{theType:\"OFF\"},Analytics4:{theType:\"OFF\"}}\n}\nwindow.setBound = function(name, theType){\n    window.analytics[name] = {\n        theType\n    }\n}\nwindow.save = function(name){\n    console.log(\"Saving settings\")\n    try{\n        var topic = document.getElementById(\"topicInput\" + name).value;\n        var message_key = document.getElementById(\"sensorKeyInput\" + name).value\n        var bound = document.getElementById(\"boundInput\" + name).value\n        var params = JSON.stringify({bound:parseFloat(bound)})\n        var theType = window.analytics[name].theType\n        debugger;\n        datasources['AnalyticsSaveConfiguration'].sendData({\"type\":theType, name, topic, message_key, params})\n    }\n    catch(e){\n        console.log(\"Failed to save settings: \" + JSON.stringify(e))\n    }\n}"
+                        }
+                    }
+                },
+                "tab": "839c8b7f-b1a2-4a9a-8eca-9df5de022839",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "52561514-6e06-405b-9d08-73d3ab915854": {
+                "externalScripts": [],
+                "id": "52561514-6e06-405b-9d08-73d3ab915854",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbr\u003e\nType\u003cbr\u003e\n\u003cdiv class=\"btn-group\" role=\"group\" aria-label=\"Basic example\"\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics3','OFF')\" class=\"btn bg-secondary text-white\"\u003eOff\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics3','upper_bound')\" class=\"btn btn-info\"\u003eUpper Bound\u003c/button\u003e\n  \u003cbutton type=\"button\" onclick=\"setBound('Analytics3','lower_bound')\" class=\"btn btn-warning\"\u003eLower Bound\u003c/button\u003e\n\u003c/div\u003e\n\u003cbr\u003e\u003cbr\u003e\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eTopic\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"topicInputAnalytics3\" type=\"text\" class=\"form-control\" value=\"sensor\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eBound\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"boundInputAnalytics3\" type=\"text\" class=\"form-control\" value=\"10\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\u003cdiv class=\"input-group mb-3\"\u003e\n  \u003cdiv class=\"input-group-prepend\"\u003e\n    \u003cspan class=\"input-group-text\" id=\"basic-addon1\"\u003eSensor Key\u003c/span\u003e\n  \u003c/div\u003e\n  \u003cinput id=\"sensorKeyInputAnalytics3\" type=\"text\" class=\"form-control\" value=\"temperature\" aria-label=\"Username\" aria-describedby=\"basic-addon1\"\u003e\n\u003c/div\u003e\n\n\n\n\u003cbr\u003e\n\u003cbutton onclick=\"save('Analytics3')\" type=\"button\" class=\"btn btn-primary\"\u003eSave\u003c/button\u003e\n",
+                            "JavaScript": "var NAME = \"Analytics3\"\n\nif(!window.analytics){\n    window.analytics = {Analytics1:{theType:\"OFF\"},Analytics2:{theType:\"OFF\"},Analytics3:{theType:\"OFF\"},Analytics4:{theType:\"OFF\"}}\n}\nwindow.setBound = function(name, theType){\n    window.analytics[name] = {\n        theType\n    }\n}\nwindow.save = function(name){\n    console.log(\"Saving settings\")\n    try{\n        var topic = document.getElementById(\"topicInput\" + name).value;\n        var message_key = document.getElementById(\"sensorKeyInput\" + name).value\n        var bound = document.getElementById(\"boundInput\" + name).value\n        var params = JSON.stringify({bound:parseFloat(bound)})\n        var theType = window.analytics[name].theType\n        debugger;\n        datasources['AnalyticsSaveConfiguration'].sendData({\"type\":theType, name, topic, message_key, params})\n    }\n    catch(e){\n        console.log(\"Failed to save settings: \" + JSON.stringify(e))\n    }\n}"
+                        }
+                    }
+                },
+                "tab": "aba1d7ef-173c-440b-a888-fbd84ddf405c",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "68b4f7d2-2487-439d-9ade-47d93f7cc8ad": {
+                "externalScripts": [],
+                "id": "68b4f7d2-2487-439d-9ade-47d93f7cc8ad",
+                "props": {
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "a9a54a95-92ed-4d05-87a5-f8e2330401c3",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var output = this.datasource.results.map(function(e){\n    e.val = parseFloat(e.val)\n    return e\n})\nreturn output"
+                        }
+                    },
+                    "fill": "#6E93A8",
+                    "timeformat": "\"MM/DD/YY, hh:mm:ss\"",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "val",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "72c54a82-c82b-43f2-b52f-df7bdd06537d",
+                "type": "CB_SCATTER_P"
+            },
+            "b3a1faf4-c9c1-4587-9e10-f997405b925c": {
+                "externalScripts": [],
+                "id": "b3a1faf4-c9c1-4587-9e10-f997405b925c",
+                "props": {
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "995c53c8-e131-4fcc-a6b9-b57f41044544",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var output = this.datasource.results.map(function(e){\n    e.val = parseFloat(e.val)\n    return e\n})\nreturn output"
+                        }
+                    },
+                    "fill": "#6E93A8",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "val",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "9cd8d007-b164-4daf-a21d-c80e449e3089",
+                "type": "CB_SCATTER_P"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cbutton  class=\"btn btn-primary\" style=\"padding: 2px 2px\"onclick=\"goHome()\"\u003eHome\u003c/button\u003e",
+                            "JavaScript": "//JavaScript\nwindow.goHome = function(){\n    CB_PORTAL.selectPage(\"/Home\")\n}"
+                        }
+                    }
+                },
+                "tab": "HEADER",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "d20d9036-5c48-48e7-9723-206147fade30": {
+                "externalScripts": [],
+                "id": "d20d9036-5c48-48e7-9723-206147fade30",
+                "props": {
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "7df3ff24-9610-437c-b3a7-ec7f27e42e76",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var output = this.datasource.results.map(function(e){\n    e.val = parseFloat(e.val)\n    return e\n})\nreturn output"
+                        }
+                    },
+                    "fill": "#6E93A8",
+                    "showLine": true,
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "val",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "39445dec-ecc2-4d23-bd00-5176efaf4f62",
+                "type": "CB_SCATTER_P"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "11 May 18 20:14 UTC",
+    "name": "DeviceAnalytics",
+    "system_key": "f6f9e3ae0bd0f8bc92eaaa9bb68301",
+    "type": "custom_v2"
+}
