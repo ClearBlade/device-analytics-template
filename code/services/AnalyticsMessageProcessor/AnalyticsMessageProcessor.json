@@ -1,0 +1,10 @@
+{
+    "current_version": 291,
+    "dependencies": "clearblade,log,q,DeviceAnalyticsUtil",
+    "logging_enabled": "true",
+    "name": "AnalyticsMessageProcessor",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "AnalyticsMessageProcessor.js"
+}
