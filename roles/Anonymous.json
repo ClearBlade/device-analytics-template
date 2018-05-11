@@ -1,0 +1,112 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "AnalyticsFetch",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 1,
+                "Name": "AnalyticsSaveConfiguration",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 1,
+                "Name": "Example_GenerateData",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 1,
+                "Name": "Example_NormalDeviate",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 1,
+                "Name": "Example_NormalDistribution_Advanced",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 1,
+                "Name": "test_trig",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "80a1a4af0b809ca6b8cf8588aae901",
+                "Items": [],
+                "Level": 15,
+                "Name": "AnalyticsConfiguration"
+            },
+            {
+                "Columns": [],
+                "ID": "9aafa5af0bb2c7b8b2dec188fb34",
+                "Items": [],
+                "Level": 15,
+                "Name": "AnalyticsEntries"
+            },
+            {
+                "Columns": [],
+                "ID": "facbdfa40bb0c2c9cebfdc86a28001",
+                "Items": [],
+                "Level": 15,
+                "Name": "vibration_sensor_1"
+            },
+            {
+                "Columns": [],
+                "ID": "fcfee3ae0ba4f0beb99ee3c9988901",
+                "Items": [],
+                "Level": 15,
+                "Name": "vibration_sensor_1"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "statistics",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            },
+            {
+                "Level": 5,
+                "Name": "DeviceAnalytics",
+                "SystemKey": "f6f9e3ae0bd0f8bc92eaaa9bb68301"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
