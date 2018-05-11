@@ -1,0 +1,29 @@
+{
+    "author": {
+        "email": "rreinold@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Analytics for IoT Devices and Datafeeds",
+    "domains": [
+        "asset management",
+        "anomaly"
+    ],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/DsuZs86.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "analytics",
+        "device",
+        "on-platform",
+        "report"
+    ],
+    "license": "MIT",
+    "name": "device-analytics-template",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
