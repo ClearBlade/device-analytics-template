@@ -1,0 +1,157 @@
+{
+    "app_id": "f6f9e3ae0bd0f8bc92eaaa9bb68301",
+    "collection_id": "9aafa5af0bb2c7b8b2dec188fb34",
+    "items": [
+        {
+            "analytics_name": "Analytics2",
+            "item_id": "4caf174a-f8aa-4f69-90ec-83a79ab58c74",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:20:37.666Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics1",
+            "item_id": "57ec28fe-606c-42fc-9e29-b590003fbfd8",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.241Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics1",
+            "item_id": "7afa6125-2524-4368-8982-63fdee13231f",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:20:37.661Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics3",
+            "item_id": "8130cd12-6ba6-4f36-9774-ac09f9f358a7",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.369Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics3",
+            "item_id": "97371db5-fdd6-4cf7-ac45-bd9dca29f18f",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.245Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics1",
+            "item_id": "97b65642-16b6-4a02-9941-1b4c6a186caf",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.365Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics3",
+            "item_id": "9cd96751-f264-46c8-8a04-c1e85917c786",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.648Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics4",
+            "item_id": "ace4ef59-4f9a-4613-b737-753047fe67f5",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.036Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics1",
+            "item_id": "ad2e8b37-9794-48eb-8d6c-246244805586",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.517Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics1",
+            "item_id": "bf9ef734-e847-4b91-b0e8-02aa71b193e6",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.645Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics3",
+            "item_id": "c6410753-03ee-44f8-9855-e28f5e1e833e",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.52Z",
+            "type": "upper_bound",
+            "val": "99"
+        },
+        {
+            "analytics_name": "Analytics3",
+            "item_id": "d188a427-a817-4e43-89ec-4b0dc1df5b89",
+            "message_key": "temperature",
+            "params": "{\"bound\":10}",
+            "timestamp": "2018-05-11T18:25:22.032Z",
+            "type": "upper_bound",
+            "val": "99"
+        }
+    ],
+    "name": "AnalyticsEntries",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "params",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "val",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "message_key",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "analytics_name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
