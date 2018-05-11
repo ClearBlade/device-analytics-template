@@ -1,5 +1,5 @@
 
-# ipm package: pd-device-analytics
+# ipm package: device-analytics
 
 ## Overview
 
