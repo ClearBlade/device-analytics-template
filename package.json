@@ -1,6 +1,7 @@
 {
+    "asset_types":["System","Code Libraries","Code Services","Portals","Devices"],
     "author": {
-        "email": "rreinold@clearblade.com"
+        "email": "rob@clearblade.com"
     },
     "clouds": [],
     "description": "Analytics for IoT Devices and Datafeeds",
