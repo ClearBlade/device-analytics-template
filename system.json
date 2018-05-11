@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "Analytics for IoT Devices, such as sensors and controllers",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "pd-device-analytics",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "f6f9e3ae0bd0f8bc92eaaa9bb68301",
+    "system_secret": "F6F9E3AE0BF0CCB5A9C198C5F9FE01"
+}
