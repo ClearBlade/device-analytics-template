@@ -1,0 +1,76 @@
+{
+    "app_id": "f6f9e3ae0bd0f8bc92eaaa9bb68301",
+    "collection_id": "80a1a4af0b809ca6b8cf8588aae901",
+    "items": [
+        {
+            "item_id": "6a5cacda-656a-4148-9804-3720f71a9ebf",
+            "message_key": "temperature",
+            "name": "Analytics4",
+            "params": "{\"bound\":10}",
+            "topic": "r4",
+            "type": "OFF"
+        },
+        {
+            "item_id": "6bc7dddc-e719-44ce-921f-5092459db1b5",
+            "message_key": "temperature",
+            "name": "Analytics3",
+            "params": "{\"bound\":10}",
+            "topic": "r3",
+            "type": "OFF"
+        },
+        {
+            "item_id": "75ea6e2b-8fc6-45cb-a785-a85f7ac98c6e",
+            "message_key": "temperature",
+            "name": "Analytics1",
+            "params": "{\"bound\":10}",
+            "topic": "r1",
+            "type": "OFF"
+        },
+        {
+            "item_id": "db13aaf4-0822-445c-87ba-3dae19d3a113",
+            "message_key": "temperature",
+            "name": "Analytics2",
+            "params": "{\"bound\":10}",
+            "topic": "r2",
+            "type": "OFF"
+        }
+    ],
+    "name": "AnalyticsConfiguration",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "params",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "message_key",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "topic",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
