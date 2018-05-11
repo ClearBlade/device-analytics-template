@@ -1,0 +1,16 @@
+{
+    "current_version": 18,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "false",
+    "name": "AnalyticsFetch",
+    "params": [
+        "name"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "AnalyticsFetch.js"
+}
