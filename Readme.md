@@ -11,25 +11,33 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 ## Setup
 
-_Add any setup instructions, such as an API Key_
+Not required
 
 ## API
 
-_Document your API here_
+Device Analytics Configuration page walks you through configuring the Analytics
 
 ## Usage
 
-_Describe assets_
+### Portals
+
+`DeviceAnalytics` - Configurable Device Analytics Report
 
 ### Code Services
 
+`AnalyticsMessageProcessor` - Processes mqtt messages and creates analytics entries
+`AnalyticsSaveConfiguration` - Updates analytics configurations
+`AnalyticsFetch` - Returns Analytics datasets for a particular Analytics Configuration
+
 ### Code Libraries
 
-### Portals
+`DeviceAnalyticsUtil` - Logic for analytics types
+`q` - Promise Library
 
 ### Collections
 
-### ...
+`	AnalyticsConfiguration`
+`	AnalyticsEntries`
 
 ## Thank you
 
