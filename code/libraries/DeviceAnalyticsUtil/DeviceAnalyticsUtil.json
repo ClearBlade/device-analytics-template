@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "log",
+    "description": "",
+    "name": "DeviceAnalyticsUtil",
+    "version": 65,
+    "visibility": "system"
+}
