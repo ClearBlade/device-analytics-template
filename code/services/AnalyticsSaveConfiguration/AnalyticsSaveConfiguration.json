@@ -1,0 +1,14 @@
+{
+    "current_version": 17,
+    "dependencies": "log,clearblade",
+    "logging_enabled": "true",
+    "name": "AnalyticsSaveConfiguration",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "AnalyticsSaveConfiguration.js"
+}
