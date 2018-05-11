@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "Configuration for Device Analytics",
+    "name": "DeviceAnalyticsConfiguration",
+    "version": 17,
+    "visibility": "system"
+}
